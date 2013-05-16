@@ -107,7 +107,6 @@ public:
     
     // Whether Chartboost should show ads in the first session
     // Defaults to true
-    // Only valid in iOS
     virtual bool shouldRequestInterstitialsInFirstSession() { return true; }
 };
 
